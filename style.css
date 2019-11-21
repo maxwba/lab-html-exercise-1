@@ -1,3 +1,57 @@
-.header{
-    
+@import url('https://fonts.googleapis.com/css?family=Poppins');
+
+body{
+    font-family: 'Poppins'
 }
+
+header > div {
+    padding: 0 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+  }
+  
+  nav {
+    width: 600px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  
+  .blackHeart {
+    width: 20px;
+    margin-right: 1rem;
+  }
+
+.searchSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+.search {
+    width: 70%;
+    font-family: "Fira Mono", "Andale Mono", "Consolas", monospace;
+    font-size: 14px;
+    border: none;
+    background-color: #f2f2f2;
+    height: 35px;
+}
+
+
+.npmLogo{
+    width: 70px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+}
+

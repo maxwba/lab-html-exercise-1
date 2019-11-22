@@ -4,12 +4,18 @@ body{
     font-family: 'Poppins'
 }
 
+header {
+    border-top: solid;
+    border-image: linear-gradient(139deg, #fb8817, #ff4b01, #c12127, #e02aff) 3;
+}
+
 header > div {
     padding: 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     border-bottom: 1px solid lightgray;
+    height: 57px;
   }
   
   nav {
@@ -50,21 +56,23 @@ header > div {
     border-style: none;
     border-width: 0px;
     height: 100%;
-    width: 10%;
+    width: 83px;
     cursor: pointer;
 }
 
 .searchArea {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 85%;
     background: #f2f2f2;
-    height: 35px;
+    height: 40px;
 }
 
 .magnifying-glass {
     height: 15px;
-    padding: 10px;
+    width: 15px;
+    padding-left: 15px;
 }
 
 .search {
